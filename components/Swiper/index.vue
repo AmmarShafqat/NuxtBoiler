@@ -18,7 +18,7 @@ onMounted(() => {
       <swiper-slide
         v-for="(slide, idx) in slides"
         :key="idx"
-        style="background-color: rgb(32, 233, 70); color: white;"
+        style="background-color: rgb(32, 233, 70); color: white"
       >
         Slide {{ idx + 1 }}
       </swiper-slide>
@@ -26,13 +26,9 @@ onMounted(() => {
   </ClientOnly>
 
   <!-- Go back one slide -->
-  <button @click="swiper.prev()">
-    Prev
-  </button>
+  <button @click="swiper.prev()">Prev</button>
   <!-- Go forward one slide -->
-  <button @click="swiper.next()">
-    Next
-  </button>
+  <button @click="swiper.next()">Next</button>
 </template>
 
 <style lang="css">

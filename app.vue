@@ -5,6 +5,6 @@
         <NuxtRouteAnnouncer />
         <NuxtPage />
       </NuxtLayout>
-  </UApp>
+    </UApp>
   </div>
 </template>
