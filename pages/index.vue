@@ -1,3 +1,4 @@
 <template>
   <Swiper />
+  <GooglePay/>
 </template>
